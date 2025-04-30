@@ -11,30 +11,33 @@
 <body data-bs-spy="scroll" data-bs-target="#navbarNav" data-bs-offset="70" tabindex="0" class="position-relative">
 
    <!-- Navbar -->
-<nav class="navbar navbar-expand-lg fixed-top bg-secondary p-0">
-    <div class="container">
-        <a class="navbar-brand text-accent" href="#">
-            <i class="fas fa-paw me-2"></i>Tin's Stray Shelter
+   <nav class="navbar navbar-expand-lg fixed-top bg-secondary">
+    <div class="container-fluid">
+        <a class="navbar-brand text-accent d-flex align-items-center" href="#">
+            <i class="fas fa-paw me-2"></i>
+            <span class="d-none d-lg-inline">Tin's Stray Shelter</span>
         </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <button class="navbar-toggler border-0 text-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ms-auto">
-                <li class="nav-item"><a class="nav-link text-accent" href="#home">Home</a></li>
-                <li class="nav-item"><a class="nav-link text-accent" href="#mission">Mission</a></li>
-                <li class="nav-item"><a class="nav-link text-accent" href="#events">Events</a></li>
-                <li class="nav-item"><a class="nav-link text-accent" href="#donate">Donate</a></li>
+        <div class="collapse navbar-collapse justify-content-lg-end" id="navbarNav">
+            <ul class="navbar-nav text-lg-start">
+                <li class="nav-item"><a class="nav-link text-accent px-3 py-2" href="#home">Home</a></li>
+                <li class="nav-item"><a class="nav-link text-accent px-3 py-2" href="#mission">Mission</a></li>
+                <li class="nav-item"><a class="nav-link text-accent px-3 py-2" href="#events">Events</a></li>
+                <li class="nav-item"><a class="nav-link text-accent px-3 py-2" href="#donate">Donate</a></li>
             </ul>
         </div>
     </div>
 </nav>
 
+
+
 <!-- Hero Section -->
 <section id="home" class="hero-section d-flex align-items-center vh-100 text-white" style="background: url('assets/img/hero.jpg') center center / cover no-repeat;">
     <div class="container text-center">
-        <h1 class="display-1 fw-bold mb-4 text-shadow">Giving Stray Dogs a Second Chance</h1>
-        <p class="lead fs-2 mb-4 text-shadow">Every donation helps us provide food, shelter, and medical care</p>
+        <h1 class="display-1 fw-bold mb-3 text-shadow">Giving Stray Dogs a Second Chance</h1>
+        <p class="fs-1 mb-4 text-shadow">Every donation helps us provide food, shelter, and medical care</p>
         <a href="#donate" class="btn btn-accent btn-lg px-5 py-3 fw-bold">Donate Now</a>
     </div>
 </section>
