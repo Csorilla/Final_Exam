@@ -41,6 +41,10 @@ html {
   color: #fff;
 }
 
+#mission {
+  scroll-margin-top: -100px; /* adjust to your navbar height */
+}
+
 /*!
  * Bootstrap  v5.3.5 (https://getbootstrap.com/)
  * Copyright 2011-2025 The Bootstrap Authors

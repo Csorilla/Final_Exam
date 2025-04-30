@@ -57,6 +57,9 @@ $theme-colors: (
 .carousel-caption p {
     color: #fff;
 }
+#mission {
+  scroll-margin-top: -100px; /* adjust to your navbar height */
+}
   
 // 2. Now import Bootstrap
 @import "../../node_modules/bootstrap/scss/bootstrap";
