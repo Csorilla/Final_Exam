@@ -13,10 +13,19 @@ This is a responsive nonprofit website built for Tin's Stray Shelter. The site a
 
 ## 🎨 Design Choices
 
-- **Color Scheme**: Warm and inviting colors to evoke compassion and trust.
-- **Layout**: Clean and organized structure for easy navigation and information access.
-- **Typography**: Readable fonts that convey professionalism and approachability.
-- **Imagery**: Use of relevant icons and images to enhance visual engagement.
+- **Color Scheme**: The color scheme follows the 60-30-10 rule to create a visually balanced and appealing layout:
+  - **60% Dominant Color – White (#ffffff)**: White serves as the primary background color, providing a clean, open, and minimalistic design. It enhances readability and ensures the content stands out. White also evokes feelings of peace and clarity, creating a welcoming environment.
+  - **30% Secondary Color – Blue (#0056B3)**: Blue is used for the header, navigation links, buttons, and key elements. It symbolizes trust, professionalism, and stability, making it ideal for a nonprofit site. It contrasts well with the white background, highlighting important features and actions.
+  - **10% Accent Color – Yellow (#FFC107)**: Yellow is used sparingly for calls to action (CTAs) like donation buttons and key highlights (such as section headings). It adds warmth, optimism, and energy, encouraging users to take action and engage with the shelter.
+
+- **Layout**: The design is simple, organized, and easy to navigate. Key sections like Hero, Mission, Events, and Donation are clearly separated, and the navigation menu is sticky for easy access. Content is aligned to ensure an intuitive flow from one section to another.
+  
+- **Typography**: Clear, readable fonts are used throughout the site. Bold fonts for headings and simple fonts for body text ensure important messages stand out and the content remains easy to read.
+
+- **Imagery**: Relevant images and icons are used to support the shelter's mission. Animal-related visuals enhance the emotional appeal, while icons provide a quick understanding of the site’s content, like donation options or event symbols.
+
+The color choices, layout, and typography work in harmony to create a balanced and engaging user experience that supports the shelter's mission and encourages visitors to take action.
+
   
 ## 📁 Project Structure
 Since this is a single-page website, the entire content is contained in the `index.html` file, and the supporting assets are organized as follows:
