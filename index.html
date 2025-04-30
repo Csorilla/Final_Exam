@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Non Profit Otganization</title>
+   <link rel="stylesheet" href="assets/css/custom.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+</head>
+<body data-bs-spy="scroll" data-bs-target="#navbarNav" data-bs-offset="70" tabindex="0" class="position-relative">
+
+   <!-- Navbar -->
+<nav class="navbar navbar-expand-lg fixed-top bg-secondary p-0">
+    <div class="container">
+        <a class="navbar-brand text-accent" href="#">
+            <i class="fas fa-paw me-2"></i>Tin's Stray Shelter
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link text-accent" href="#home">Home</a></li>
+                <li class="nav-item"><a class="nav-link text-accent" href="#mission">Mission</a></li>
+                <li class="nav-item"><a class="nav-link text-accent" href="#events">Events</a></li>
+                <li class="nav-item"><a class="nav-link text-accent" href="#donate">Donate</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Hero Section -->
+<section id="home" class="hero-section d-flex align-items-center vh-100 text-white" style="background: url('assets/img/hero.jpg') center center / cover no-repeat;">
+    <div class="container text-center">
+        <h1 class="display-1 fw-bold mb-4 text-shadow">Giving Stray Dogs a Second Chance</h1>
+        <p class="lead fs-2 mb-4 text-shadow">Every donation helps us provide food, shelter, and medical care</p>
+        <a href="#donate" class="btn btn-accent btn-lg px-5 py-3 fw-bold">Donate Now</a>
+    </div>
+</section>
+
+
+
+<!-- Mission Section -->
+<!-- Mission Section -->
+<section id="mission" class="py-5 bg-secondary">
+    <div class="container py-5">
+        <h1 class="text-center mb-5 text-white">Our Mission</h1>
+        <div class="row g-4">
+            <!-- Rescue & Care Card -->
+            <div class="col-md-4">
+                <div class="card h-100 text-center p-4">
+                    <i class="mission-icon fas fa-heartbeat text-accent"></i>
+                    <div class="card-body">
+                        <h3>Rescue & Care</h3>
+                        <p>We rescue abandoned and injured dogs, providing immediate medical care 
+                        and rehabilitation in our safe shelter facility.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Adoption & Foster Card -->
+            <div class="col-md-4">
+                <div class="card h-100 text-center p-4">
+                    <i class="mission-icon fas fa-home text-accent"></i>
+                    <div class="card-body">
+                        <h3>Adoption & Foster</h3>
+                        <p>Finding forever homes through our adoption program or temporary 
+                        care through our foster network for special needs dogs.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Community Education Card -->
+            <div class="col-md-4">
+                <div class="card h-100 text-center p-4">
+                    <i class="mission-icon fas fa-graduation-cap text-accent"></i>
+                    <div class="card-body">
+                        <h3>Community Education</h3>
+                        <p>Teaching responsible pet ownership, spay/neuter awareness, 
+                        and humane treatment through workshops and school programs.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Emergency Response Card -->
+            <div class="col-md-4">
+                <div class="card h-100 text-center p-4">
+                    <i class="mission-icon fas fa-ambulance text-accent"></i>
+                    <div class="card-body">
+                        <h3>Emergency Response</h3>
+                        <p>24/7 rescue team ready to respond to reports of abused, neglected, 
+                        or at-risk dogs in our community.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Spay/Neuter Card -->
+            <div class="col-md-4">
+                <div class="card h-100 text-center p-4">
+                    <i class="mission-icon fas fa-clinic-medical text-accent"></i>
+                    <div class="card-body">
+                        <h3>Spay/Neuter Program</h3>
+                        <p>Low-cost sterilization services to control stray population 
+                        and improve animal health in our community.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Volunteer Program Card -->
+            <div class="col-md-4">
+                <div class="card h-100 text-center p-4">
+                    <i class="mission-icon fas fa-hands-helping text-accent"></i>
+                    <div class="card-body">
+                        <h3>Volunteer Program</h3>
+                        <p>Engaging community members in dog walking, shelter maintenance, 
+                        and event organization through our volunteer network.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Events Carousel -->
+<section id="events" class="py-5 vh-100">
+    <div class="container py-5">
+        <h2 class="text-center mb-5">Upcoming Events</h2>
+        <div id="eventsCarousel" class="carousel slide" data-bs-ride="carousel">
+            <!-- Indicators -->
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#eventsCarousel" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#eventsCarousel" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#eventsCarousel" data-bs-slide-to="2"></button>
+            </div>
+
+            <div class="carousel-inner rounded-3 shadow-lg">
+                <!-- Adoption Event -->
+                <div class="carousel-item active">
+                    <img src="assets\img\adoption.jpg" 
+                         class="d-block w-100 carousel-image" 
+                         alt="Adoption event">
+                    <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded-pill">
+                        <h3>Monthly Adoption Day</h3>
+                        <p class="fs-5">March 15th | 10 AM - 4 PM | Meet your new best friend!</p>
+                    </div>
+                </div>
+
+                <!-- Fundraiser Event -->
+                <div class="carousel-item">
+                    <img src="assets\img\charity.jpg" 
+                         class="d-block w-100 carousel-image" 
+                         alt="Fundraiser event">
+                    <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded-pill">
+                        <h3>Annual Fundraiser Gala</h3>
+                        <p class="fs-5">April 20th | 7 PM | Black tie event with celebrity guests</p>
+                    </div>
+                </div>
+
+                <!-- Volunteer Event -->
+                <div class="carousel-item">
+                    <img src="assets\img\volunteer.jpg" 
+                         class="d-block w-100 carousel-image" 
+                         alt="Volunteer event">
+                    <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded-pill">
+                        <h3>Volunteer Orientation</h3>
+                        <p class="fs-5">Every Saturday | 9 AM | Learn how you can help</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Controls -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#eventsCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#eventsCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+</section>
+
+<!-- Donation Section -->
+<section id="donate" class="py-5 bg-light">
+    <div class="container py-5">
+        <h2 class="text-center">Make a Difference</h2>
+        <div class="row g-4 p-5">
+            <!-- Donation Form Column -->
+            <div class="col-md-6">
+                <div class="p-5 rounded-2 shadow bg-secondary text-white h-100">
+                    <!-- form content -->
+                    <form>
+                        <div class="donation-tier mb-3 rounded">
+                            <h4 class="mb-4">Select Donation Tier</h4>
+                            <div class="form-check mb-3 p-3 rounded bg-light">
+                                <input class="form-check-input bg-accent" type="radio" name="donation" id="tier1" checked>
+                                <label class="form-check-label fw-bold" for="tier1">
+                                    $25 - Feeds a dog for a week
+                                </label>
+                            </div>
+                            <div class="form-check mb-3 p-3 rounded bg-light">
+                                <input class="form-check-input bg-accent" type="radio" name="donation" id="tier2">
+                                <label class="form-check-label fw-bold" for="tier2">
+                                    $50 - Vaccinates one dog
+                                </label>
+                            </div>
+                            <div class="form-check mb-3 p-3 rounded bg-light">
+                                <input class="form-check-input bg-accent" type="radio" name="donation" id="tier3">
+                                <label class="form-check-label fw-bold" for="tier3">
+                                    $100 - Spay/Neuter surgery
+                                </label>
+                            </div>
+                            <div class="form-check mb-3 p-3 rounded bg-light">
+                                <input class="form-check-input bg-accent" type="radio" name="donation" id="tier4">
+                                <label class="form-check-label fw-bold" for="tier4">
+                                    $250 - Emergency medical care
+                                </label>
+                            </div>
+                            <div class="input-group mt-4">
+                                <span class="input-group-text">$</span>
+                                <input type="number" class="form-control" placeholder="Custom Amount">
+                            </div>
+                        </div>
+                        <div class="mb-4">
+                            <label class="form-label">Payment Information</label>
+                            <div class="input-group mb-3">
+                                <span class="input-group-text"><i class="fas fa-credit-card"></i></span>
+                                <input type="text" class="form-control" placeholder="Card Number">
+                            </div>
+                            <div class="row g-2">
+                                <div class="col-6">
+                                    <input type="text" class="form-control" placeholder="MM/YY">
+                                </div>
+                                <div class="col-6">
+                                    <input type="text" class="form-control" placeholder="CVC">
+                                </div>
+                            </div>
+                        </div>
+                        <button type="submit" class="btn btn-accent w-100 py-3 fw-bold">
+                            <i class="fas fa-paw me-2"></i>Donate Now
+                        </button>
+                    </form>
+                </div>
+            </div>
+      
+
+            <!-- Other Ways Column -->
+            <div class="col-md-6">
+                <div class="p-5 rounded-2 shadow h-100">
+                    <h4 class="mb-4">Other Ways to Help</h4>
+                    <ul class="list-unstyled">
+                        <li class="mb-3 p-3 bg-light rounded">
+                            <i class="fas fa-hands-helping me-1 text-accent"></i>
+                            <strong>Volunteer:</strong> Help with dog walking, grooming, or events
+                        </li>
+                        <li class="mb-3 p-3 bg-light rounded">
+                            <i class="fas fa-home me-1 text-accent"></i>
+                            <strong>Foster:</strong> Temporary home for dogs awaiting adoption
+                        </li>
+                        <li class="mb-3 p-3 bg-light rounded">
+                            <i class="fas fa-shopping-cart me-1 text-accent"></i>
+                            <strong>Donate Supplies:</strong> Food, blankets, toys, and medical supplies
+                        </li>
+                        <li class="mb-3 p-3 bg-light rounded">
+                            <i class="fas fa-hand-holding-heart me-1 text-accent"></i>
+                            <strong>Sponsor a Dog:</strong> Monthly support for special needs animals
+                        </li>
+                        <li class="mb-3 p-3 bg-light rounded">
+                            <i class="fas fa-briefcase me-1 text-accent"></i>
+                            <strong>Corporate Matching:</strong> Double your impact through employer programs
+                        </li>
+                        <li class="mb-3 p-3 bg-light rounded">
+                            <i class="fas fa-share-alt me-1 text-accent"></i>
+                            <strong>Spread Awareness:</strong> Share our mission on social media
+                        </li>
+                    </ul>
+                    <div class="mt-4 text-center">
+                        <p class="text-muted">All donations are tax-deductible<br>EIN: 12-3456789</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- Footer -->
+<footer class="bg-secondary text-white py-4">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <h5>Contact Us</h5>
+                <p>123 Dog Haven Road<br>City, State 12345<br>info@tins-shelter.org</p>
+            </div>
+            <div class="col-md-4">
+                <h5>Follow Us</h5>
+                <div class="social-links">
+                    <a href="#" class="text-accent me-3"><i class="fab fa-facebook"></i></a>
+                    <a href="#" class="text-accent me-3"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="text-accent me-3"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <h5>Quick Links</h5>
+                <ul class="list-unstyled">
+                    <li><a href="#home" class="text-white text-decoration-none">Home</a></li>
+                    <li><a href="#mission" class="text-white text-decoration-none">Our Mission</a></li>
+                    <!-- Add more links -->
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
