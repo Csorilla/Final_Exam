@@ -34,8 +34,10 @@ $theme-colors: (
 }
 
 .carousel-caption {
-    backdrop-filter: blur(3px);
-    padding: 1.5rem 2rem;
+  backdrop-filter: blur(4px);
+  background-color: rgba(0, 0, 0, 0.25); /* more consistent than Bootstrap's bg-opacity */
+  padding: 1.5rem 2rem;
+  border-radius: 1rem;
 }
 
 .carousel-control-prev-icon,
@@ -47,7 +49,14 @@ $theme-colors: (
 .text-shadow {
     text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.7);
 }
-
+.carousel-caption h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+.carousel-caption h3,
+.carousel-caption p {
+    color: #fff;
+}
   
 // 2. Now import Bootstrap
 @import "../../node_modules/bootstrap/scss/bootstrap";
